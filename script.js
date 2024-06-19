@@ -1,6 +1,6 @@
 const users = {
-    hamza: 'password1',
-    manahil: 'password2'
+    hamza: 'husband',
+    manahil: 'merijaan'
 };
 
 function setCookie(name, value, days) {
@@ -57,6 +57,11 @@ function login() {
     } else {
         errorMessage.textContent = 'Invalid username or password';
     }
+}
+function logout(){
+    document.getElementById("logoutbtn").onclick = function () {
+        location.href = "https://hamzanaeemm.github.io/nimaztracker.github.io/";
+    };
 }
 
 function updateTasks() {
