@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Checklist</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <button onclick="logout()">Logout</button>
+    <div id="main-container">
+        <div class="column">
+            <h2>Hamza</h2>
+            <ul id="hamza-tasks">
+                <li><input type="checkbox" onclick="updateTasks()"> Task 1</li>
+                <li><input type="checkbox" onclick="updateTasks()"> Task 2</li>
+                <li><input type="checkbox" onclick="updateTasks()"> Task 3</li>
+                <li><input type="checkbox" onclick="updateTasks()"> Task 4</li>
+                <li><input type="checkbox" onclick="updateTasks()"> Task 5</li>
+            </ul>
+        </div>
+        <div class="column">
+            <h2>Manahil</h2>
+            <ul id="manahil-tasks">
+                <li><input type="checkbox" onclick="updateTasks()"> Task 1</li>
+                <li><input type="checkbox" onclick="updateTasks()"> Task 2</li>
+                <li><input type="checkbox" onclick="updateTasks()"> Task 3</li>
+                <li><input type="checkbox" onclick="updateTasks()"> Task 4</li>
+                <li><input type="checkbox" onclick="updateTasks()"> Task 5</li>
+            </ul>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
